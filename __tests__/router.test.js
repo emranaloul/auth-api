@@ -47,24 +47,7 @@ describe('Auth Router', () => {
 
       });
 
-      // it('can signin with bearer', async () => {
-
-      //   // First, use basic to login to get a token
-      //   const response = await mockRequest.get('/api/v2/secret')
-      //     .auth(users[userType].username, users[userType].password);
-
-      //   const token = response.body.token;
-
-      //   // First, use basic to login to get a token
-      //   const bearerResponse = await mockRequest
-      //     .get('/users')
-      //     .set('Authorization', `Bearer ${token}`)
-
-      //   // Not checking the value of the response, only that we "got in"
-      //   expect(bearerResponse.status).toBe(200);
-
-      // });
-
+    
     });
 
     describe('bad logins', () => {
@@ -92,19 +75,4 @@ describe('Auth Router', () => {
 
       });
 
-      // it('bearer fails with an invalid token', async () => {
-
-      //   // First, use basic to login to get a token
-      //   const bearerResponse = await mockRequest
-      //     .get('/users')
-      //     .set('Authorization', `Bearer foobar`)
-
-      //   // Not checking the value of the response, only that we "got in"
-      //   expect(bearerResponse.status).toBe(403);
-
-      // })
-    })
-
-  });
-
-});
+     
