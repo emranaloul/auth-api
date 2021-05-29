@@ -48,7 +48,9 @@ describe('Auth Router', () => {
 
       });
 
+
     });
+
     });
 
     describe('bad logins', () => {
@@ -77,4 +79,13 @@ describe('Auth Router', () => {
       });
     });
 
+<<<<<<< HEAD
      
+=======
+   
+    })
+
+  });
+
+});
+>>>>>>> ddc89b14381dd582e50883c34bdb763df4f286d2
