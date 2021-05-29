@@ -289,12 +289,11 @@ Welcome to the secret area!
 * In terminal run :
 
 ```
+```
 npm test
 
 ```
-<br><br><br>
-<hr>
-<br><br>
+
 
 ## UML Diagram
 ![auth-api](auth-api.png)
