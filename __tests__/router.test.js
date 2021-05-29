@@ -33,6 +33,7 @@ describe('Auth Router', () => {
         expect(userObject.user.username).toEqual(users[userType].username)
 
       });
+    });
 
       it('can signin with basic', async () => {
 
@@ -47,7 +48,7 @@ describe('Auth Router', () => {
 
       });
 
-    
+    });
     });
 
     describe('bad logins', () => {
@@ -74,5 +75,6 @@ describe('Auth Router', () => {
         expect(userObject.token).not.toBeDefined()
 
       });
+    });
 
      
